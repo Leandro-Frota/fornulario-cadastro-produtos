@@ -1,0 +1,39 @@
+*{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #212E46 !important;
+    color: #ffffff !important;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212E46;
+}
+
+.logo{
+    width: 15rem;
+    height: 15rem;
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 1rem;
+    color: #ffffff;
+    font-weight: 300;
+    cursor: pointer;
+
+
+}
+
+.menu a:hover{
+   border-bottom: 2px solid #46CBEE;
+   opacity: 0.8;
+}
